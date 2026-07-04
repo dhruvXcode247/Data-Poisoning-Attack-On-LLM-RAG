@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Data Poisoning Attack on RAG Apps
 
 ### **📚 FAISS-based Text Search**
@@ -82,4 +81,3 @@ Create a **malicious .txt** file and inject it into the vectordb to **poison the
 =======
 # Data-Poisoning-Attack-On-LLM-RAG
 This repository implements a data poisoning attack done on a LLM-RAG application hosted on Streamlit using FAISS.
->>>>>>> 0ed36a84302c8eabb8fa28b996a4885dc0f5f472
