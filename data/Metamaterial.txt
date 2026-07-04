@@ -1,0 +1,311 @@
+Metamaterial
+
+العربية
+
+Asturianu
+
+Български
+
+Català
+
+Čeština
+
+Dansk
+
+Deutsch
+
+Español
+
+Esperanto
+
+Euskara
+
+فارسی
+
+Français
+
+한국어
+
+Հայերեն
+
+Italiano
+
+עברית
+
+മലയാളം
+
+Монгол
+
+Nederlands
+
+日本語
+
+Norsk bokmål
+
+پښتو
+
+Polski
+
+Português
+
+Română
+
+Русский
+
+Slovenščina
+
+Српски / srpski
+
+Suomi
+
+Svenska
+
+Türkçe
+
+Українська
+
+Tiếng Việt
+
+中文
+
+Edit links
+
+From Wikipedia, the free encyclopedia
+
+Materials engineered to have properties that have not yet been found in nature
+
+A metamaterial (from the Greek word μετά meta, meaning "beyond" or "after", and the Latin word materia, meaning "matter" or "material") is a type of material engineered to have a property, typically rarely observed in naturally occurring materials, that is derived not from the properties of the base materials but from their newly designed structures. Metamaterials are usually fashioned from multiple materials, such as metals and plastics, and are usually arranged in repeating patterns, at scales that are smaller than the wavelengths of the phenomena they influence. Their precise shape, geometry, size, orientation, and arrangement give them their "smart" properties of manipulating electromagnetic, acoustic, or even seismic waves: by blocking, absorbing, enhancing, or bending waves, to achieve benefits that go beyond what is possible with conventional materials.
+
+Appropriately designed metamaterials can affect waves of electromagnetic radiation or sound in a manner not observed in bulk materials.[3][4][5] Those that exhibit a negative index of refraction for particular wavelengths have been the focus of a large amount of research.[6][7][8] These materials are known as negative-index metamaterials.
+
+Potential applications of metamaterials are diverse and include sports equipment[9][10] optical filters, medical devices, remote aerospace applications, sensor detection and infrastructure monitoring, smart solar power management, Lasers,[11] crowd control, radomes, high-frequency battlefield communication and lenses for high-gain antennas, improving ultrasonic sensors, and even shielding structures from earthquakes.[12][13][14][15] Metamaterials offer the potential to create super-lenses.[16] Such a lens can allow imaging below the diffraction limit that is the minimum resolution d=λ/(2NA) that can be achieved by conventional lenses having a numerical aperture NA and with illumination wavelength λ. Sub-wavelength optical metamaterials, when integrated with optical recording media, can be used to achieve optical data density higher than limited by diffraction.[17] A form of 'invisibility' was demonstrated using gradient-index materials. Acoustic and seismic metamaterials are also research areas.[12][18]
+
+Metamaterial research is interdisciplinary and involves such fields as electrical engineering, electromagnetics, classical optics, solid state physics, microwave and antenna engineering, optoelectronics, material sciences, nanoscience and semiconductor engineering.[4]
+
+History
+
+[edit]
+
+Main article: History of metamaterials
+
+Explorations of artificial materials for manipulating electromagnetic waves began at the end of the 19th century. Some of the earliest structures that may be considered metamaterials were studied by Jagadish Chandra Bose, who in 1898 researched substances with chiral properties. Karl Ferdinand Lindman studied wave interaction with metallic helices as artificial chiral media in the early twentieth century.
+
+In the late 1940s, Winston E. Kock from AT&T Bell Laboratories developed materials that had similar characteristics to metamaterials. In the 1950s and 1960s, artificial dielectrics were studied for lightweight microwave antennas. Microwave radar absorbers were researched in the 1980s and 1990s as applications for artificial chiral media.[4][19][20]
+
+Negative-index materials were first described theoretically by Victor Veselago in 1967.[21] He proved that such materials could transmit light. He showed that the phase velocity could be made anti-parallel to the direction of Poynting vector. This is contrary to wave propagation in naturally occurring materials.[8]
+
+In 1995, John M. Guerra fabricated a sub-wavelength transparent grating (later called a photonic metamaterial) having 50 nm lines and spaces, and then coupled it with a standard oil immersion microscope objective (the combination later called a super-lens) to resolve a grating in a silicon wafer also having 50 nm lines and spaces. This super-resolved image was achieved with illumination having a wavelength of 650 nm in air.[16]
+
+In 2000, John Pendry was the first to identify a practical way to make a left-handed metamaterial, a material in which the right-hand rule is not followed.[21] Such a material allows an electromagnetic wave to convey energy (have a group velocity) against its phase velocity. Pendry's idea was that metallic wires aligned along the direction of a wave could provide negative permittivity (dielectric function ε < 0). Natural materials (such as ferroelectrics) display negative permittivity; the challenge was achieving negative permeability (μ < 0). In 1999 Pendry demonstrated that a split ring (C shape) with its axis placed along the direction of wave propagation could do so. In the same paper, he showed that a periodic array of wires and rings could give rise to a negative refractive index. Pendry also proposed a related negative-permeability design, the Swiss roll.
+
+In 2000, David R. Smith et al. reported the experimental demonstration of functioning electromagnetic metamaterials by horizontally stacking, periodically, split-ring resonators and thin wire structures. A method was provided in 2002 to realize negative-index metamaterials using artificial lumped-element loaded transmission lines in microstrip technology. In 2003, complex (both real and imaginary parts of) negative refractive index[22] and imaging by flat lens[23] using left handed metamaterials were demonstrated. By 2007, experiments that involved negative refractive index had been conducted by many groups.[3][15] At microwave frequencies, the first, imperfect invisibility cloak was realized in 2006.[24][25][26][27][28]
+
+From the standpoint of governing equations, contemporary researchers can classify the realm of metamaterials into three primary branches:[29] Electromagnetic/Optical wave metamaterials, other wave metamaterials, and diffusion metamaterials. These branches are characterized by their respective governing equations, which include Maxwell's equations (a wave equation describing transverse waves), other wave equations (for longitudinal and transverse waves), and diffusion equations (pertaining to diffusion processes).[30] Crafted to govern a range of diffusion activities, diffusion metamaterials prioritize diffusion length as their central metric. This crucial parameter experiences temporal fluctuations while remaining immune to frequency variations. In contrast, wave metamaterials, designed to adjust various wave propagation paths, consider the wavelength of incoming waves as their essential metric. This wavelength remains constant over time, though it adjusts with frequency alterations. Fundamentally, the key metrics for diffusion and wave metamaterials present a stark divergence, underscoring a distinct complementary relationship between them. For comprehensive information, refer to Section I.B, "Evolution of metamaterial physics," in Ref.[29]
+
+Electromagnetic metamaterials
+
+[edit]
+
+Articles about Electromagnetism  Electricity Magnetism Optics History Computational Textbooks Phenomena Electrostatics Charge density Conductor Coulomb law Electret Electric charge Electric dipole Electric field Electric flux Electric potential Electrostatic discharge Electrostatic induction Gauss law Insulator Permittivity Polarization Potential energy Static electricity Triboelectricity Magnetostatics Ampère law Biot–Savart law Gauss magnetic law Magnetic dipole Magnetic field Magnetic flux Magnetic scalar potential Magnetic vector potential Magnetization Permeability Right-hand rule Electrodynamics Bremsstrahlung Cyclotron radiation Displacement current Eddy current Electromagnetic field Electromagnetic induction Electromagnetic pulse Electromagnetic radiation Faraday law Jefimenko equations Larmor formula Lenz law Liénard–Wiechert potential London equations Lorentz force Maxwell equations Maxwell tensor Poynting vector Synchrotron radiation Electrical network Alternating current Capacitance Current density Direct current Electric current Electric power Electrolysis Electromotive force Impedance Inductance Joule heating Kirchhoff laws Network analysis Ohm's law Parallel circuit Resistance Resonant cavities Series circuit Voltage Watt Waveguides Magnetic circuit AC motor DC motor Electric machine Electric motor Gyrator–capacitor Induction motor Linear motor Magnetomotive force Permeance Reluctance (complex) Reluctance (real) Rotor Stator Transformer Covariant formulation Electromagnetic tensor Electromagnetism and special relativity Four-current Four-potential Mathematical descriptions Maxwell equations in curved spacetime Relativistic electromagnetism Stress–energy tensor Scientists Ampère Biot Coulomb Davy Einstein Faraday Fizeau Gauss Heaviside Helmholtz Henry Hertz Hopkinson Jefimenko Joule Kelvin Kirchhoff Larmor Lenz Liénard Lorentz Maxwell Neumann Ohm Ørsted Poisson Poynting Ritchie Savart Singer Steinmetz Tesla Thomson Volta Weber Wiechert v t e
+
+An electromagnetic metamaterial affects electromagnetic waves that impinge on or interact with its structural features, which are smaller than the wavelength. To behave as a homogeneous material accurately described by an effective refractive index, its features must be much smaller than the wavelength.[citation needed]
+
+The unusual properties of metamaterials arise from the resonant response of each constituent element rather than their spatial arrangement into a lattice. It allows considering the local effective material parameters (permittivity and permeability). The resonance effect related to the mutual arrangement of elements is responsible for Bragg scattering, which underlies the physics of photonic crystals, another class of electromagnetic materials. Unlike the local resonances, Bragg scattering and corresponding Bragg stop-band have a low-frequency limit determined by the lattice spacing. The subwavelength approximation ensures that the Bragg stop-bands with the strong spatial dispersion effects are at higher frequencies and can be neglected. The criterion for shifting the local resonance below the lower Bragg stop-band make it possible to build a photonic phase transition diagram in a parameter space, for example, size and permittivity of the constituent element. Such diagram displays the domain of structure parameters allowing the metamaterial properties observation in the electromagnetic material.[31]
+
+For microwave radiation, the features are on the order of millimeters. Microwave frequency metamaterials are usually constructed as arrays of electrically conductive elements (such as loops of wire) that have suitable inductive and capacitive characteristics. Many microwave metamaterials use split-ring resonators.[5][6]
+
+Photonic metamaterials are structured on the nanometer scale and manipulate light at optical frequencies. Photonic crystals and frequency-selective surfaces such as diffraction gratings, dielectric mirrors and optical coatings exhibit similarities to subwavelength structured metamaterials. However, these are usually considered distinct from metamaterials, as their function arises from diffraction or interference and thus cannot be approximated as a homogeneous material.[citation needed] However, material structures such as photonic crystals are effective in the visible light spectrum. The middle of the visible spectrum has a wavelength of approximately 560 nm (for sunlight). Photonic crystal structures are generally half this size or smaller, that is < 280 nm. [citation needed]
+
+Plasmonic metamaterials utilize surface plasmons, which are packets of electrical charge that collectively oscillate at the surfaces of metals at optical frequencies.
+
+Frequency selective surfaces (FSS) can exhibit subwavelength characteristics and are known variously as artificial magnetic conductors (AMC) or High Impedance Surfaces (HIS). FSS display inductive and capacitive characteristics that are directly related to their subwavelength structure.[32]
+
+Electromagnetic metamaterials can be divided into different classes, as follows:[3][21][4][33]
+
+Negative refractive index
+
+[edit]
+
+Main articles: Negative-index metamaterial and Negative refraction
+
+Negative-index metamaterials (NIM) are characterized by a negative index of refraction. Other terms for NIMs include "left-handed media", "media with a negative refractive index", and "backward-wave media".[3] NIMs where the negative index of refraction arises from simultaneously negative permittivity and negative permeability are also known as double negative metamaterials or double negative materials (DNG).[21]
+
+Assuming a material well-approximated by a real permittivity and permeability, the relationship between permittivity
+
+{\displaystyle \varepsilon _{r}}
+
+, permeability
+
+{\displaystyle \mu _{r}}
+
+and refractive index n is given by
+
+{\textstyle n=\pm {\sqrt {\varepsilon _{\mathrm {r} }\mu _{\mathrm {r} }}}}
+
+. All known non-metamaterial transparent materials (glass, water, ...) possess positive
+
+{\displaystyle \varepsilon _{r}}
+
+and
+
+{\displaystyle \mu _{r}}
+
+. By convention the positive square root is used for n. However, some engineered metamaterials have
+
+{\displaystyle \varepsilon _{r}}
+
+and
+
+{\displaystyle \mu _{r}<0}
+
+. Because the product
+
+{\displaystyle \varepsilon _{r}\mu _{r}}
+
+is positive, n is real. Under such circumstances, it is necessary to take the negative square root for n. When both
+
+{\displaystyle \varepsilon _{r}}
+
+and
+
+{\displaystyle \mu _{r}}
+
+are positive (negative), waves travel in the forward (backward) direction. Electromagnetic waves cannot propagate in materials with
+
+{\displaystyle \varepsilon _{r}}
+
+and
+
+{\displaystyle \mu _{r}}
+
+of opposite sign as the refractive index becomes imaginary. Such materials are opaque for electromagnetic radiation and examples include plasmonic materials such as metals (gold, silver, ...).
+
+The foregoing considerations are simplistic for actual materials, which must have complex-valued
+
+{\displaystyle \varepsilon _{r}}
+
+and
+
+{\displaystyle \mu _{r}}
+
+. The real parts of both
+
+{\displaystyle \varepsilon _{r}}
+
+and
+
+{\displaystyle \mu _{r}}
+
+do not have to be negative for a passive material to display negative refraction.[34][35] Indeed, a negative refractive index for circularly polarized waves can also arise from chirality.[36][37] Metamaterials with negative n have numerous interesting properties:[4][38]
+
+Snell's law (n1sinθ1 = n2sinθ2) still describes refraction, but as n2 is negative, incident and refracted rays are on the same side of the surface normal at an interface of positive and negative index materials.
+
+Cherenkov radiation points the other way.[further explanation needed]
+
+The time-averaged Poynting vector is antiparallel to phase velocity. However, for waves (energy) to propagate, a –μ must be paired with a –ε in order to satisfy the wave number dependence on the material parameters
+
+{\displaystyle kc=\omega {\sqrt {\mu \varepsilon }}}
+
+.
+
+Negative index of refraction derives mathematically from the vector triplet E, H and k.[4]
+
+For plane waves propagating in electromagnetic metamaterials, the electric field, magnetic field and wave vector follow a left-hand rule, the reverse of the behavior of conventional optical materials.
+
+To date, only metamaterials exhibit a negative index of refraction.[3][38][39]
+
+Single negative
+
+[edit]
+
+Single negative (SNG) metamaterials have either negative relative permittivity (εr) or negative relative permeability (μr), but not both.[21] They act as metamaterials when combined with a different, complementary SNG, jointly acting as a DNG.
+
+Epsilon negative media (ENG) display a negative εr while μr is positive.[3][38][21] Many plasmas exhibit this characteristic. For example, noble metals such as gold or silver are ENG in the infrared and visible spectrums.
+
+Mu-negative media (MNG) display a positive εr and negative μr.[3][38][21] Gyrotropic or gyromagnetic materials exhibit this characteristic. A gyrotropic material is one that has been altered by the presence of a quasistatic magnetic field, enabling a magneto-optic effect.[citation needed] A magneto-optic effect is a phenomenon in which an electromagnetic wave propagates through such a medium. In such a material, left- and right-rotating elliptical polarizations can propagate at different speeds. When light is transmitted through a layer of magneto-optic material, the result is called the Faraday effect: the polarization plane can be rotated, forming a Faraday rotator. The results of such a reflection are known as the magneto-optic Kerr effect (not to be confused with the nonlinear Kerr effect). Two gyrotropic materials with reversed rotation directions of the two principal polarizations are called optical isomers.
+
+Joining a slab of ENG material and slab of MNG material resulted in properties such as resonances, anomalous tunneling, transparency and zero reflection. Like negative-index materials, SNGs are innately dispersive, so their εr, μr and refraction index n, are a function of frequency.[38]
+
+Hyperbolic
+
+[edit]
+
+Hyperbolic metamaterials (HMMs) behave as a metal for certain polarization or direction of light propagation and behave as a dielectric for the other due to the negative and positive permittivity tensor components, giving extreme anisotropy. The material's dispersion relation in wavevector space forms a hyperboloid and therefore it is called a hyperbolic metamaterial. The extreme anisotropy of HMMs leads to directional propagation of light within and on the surface.[40] HMMs have shown various potential applications, such as sensing, reflection modulator,[41] all-optical ultra-fast switching for integrated photonics,[42] imaging, super high resolution and single photon source,[43] steering of optical signals, enhanced plasmon resonance effects.[44]
+
+Bandgap
+
+[edit]
+
+Further information: Photonic crystal, Electronic band structure, and Coupled oscillation
+
+Electromagnetic bandgap metamaterials (EBG or EBM) control light propagation. This is accomplished either with photonic crystals (PC) or left-handed materials (LHM). PCs can prohibit light propagation altogether. Both classes can allow light to propagate in specific, designed directions and both can be designed with bandgaps at desired frequencies.[45][46] The period size of EBGs is an appreciable fraction of the wavelength, creating constructive and destructive interference.
+
+PC are distinguished from sub-wavelength structures, such as tunable metamaterials, because the PC derives its properties from its bandgap characteristics. PCs are sized to match the wavelength of light, versus other metamaterials that expose sub-wavelength structure. Furthermore, PCs function by diffracting light. In contrast, metamaterial does not use diffraction.[47]
+
+PCs have periodic inclusions that inhibit wave propagation due to the inclusions' destructive interference from scattering. The photonic bandgap property of PCs makes them the electromagnetic analog of electronic semi-conductor crystals.[48]
+
+EBGs have the goal of creating high quality, low loss, periodic, dielectric structures. An EBG affects photons in the same way semiconductor materials affect electrons. PCs are the perfect bandgap material, because they allow no light propagation.[49] Each unit of the prescribed periodic structure acts like one atom, albeit of a much larger size.[3][49]
+
+EBGs are designed to prevent the propagation of an allocated bandwidth of frequencies, for certain arrival angles and polarizations. Various geometries and structures have been proposed to fabricate EBG's special properties. In practice it is impossible to build a flawless EBG device.[3][4]
+
+EBGs have been manufactured for frequencies ranging from a few gigahertz (GHz) to a few terahertz (THz), radio, microwave and mid-infrared frequency regions. EBG application developments include a transmission line, woodpiles made of square dielectric bars and several different types of low gain antennas.[3][4]
+
+Double positive medium
+
+[edit]
+
+Double positive mediums (DPS) do occur in nature, such as naturally occurring dielectrics. Permittivity and magnetic permeability are both positive and wave propagation is in the forward direction. Artificial materials have been fabricated which combine DPS, ENG and MNG properties.[3][21]
+
+Bi-isotropic and bianisotropic
+
+[edit]
+
+Categorizing metamaterials into double or single negative, or double positive, normally assumes that the metamaterial has independent electric and magnetic responses described by ε and μ. However, in many cases, the electric field causes magnetic polarization, while the magnetic field induces electrical polarization, known as magnetoelectric coupling. Such media are denoted as bi-isotropic. Media that exhibit magnetoelectric coupling and that are anisotropic (which is the case for many metamaterial structures[50]), are referred to as bi-anisotropic.[51][52]
+
+Four material parameters are intrinsic to magnetoelectric coupling of bi-isotropic media. They are the electric (E) and magnetic (H) field strengths, and electric (D) and magnetic (B) flux densities. These parameters are ε, μ, κ and χ or permittivity, permeability, strength of chirality, and the Tellegen parameter, respectively. In this type of media, material parameters do not vary with changes along a rotated coordinate system of measurements. In this sense they are invariant or scalar.[4]
+
+The intrinsic magnetoelectric parameters, κ and χ, affect the phase of the wave. The effect of the chirality parameter is to split the refractive index. In isotropic media this results in wave propagation only if ε and μ have the same sign. In bi-isotropic media with χ assumed to be zero, and κ a non-zero value, different results appear. Either a backward wave or a forward wave can occur. Alternatively, two forward waves or two backward waves can occur, depending on the strength of the chirality parameter.
+
+In the general case, the constitutive relations for bi-anisotropic materials read
+
+{\displaystyle \mathbf {D} =\varepsilon \mathbf {E} +\xi \mathbf {H} ,}
+
+{\displaystyle \mathbf {B} =\zeta \mathbf {E} +\mu \mathbf {H} ,}
+
+where
+
+{\displaystyle \varepsilon }
+
+and
+
+{\displaystyle \mu }
+
+are the permittivity and the permeability tensors, respectively, whereas
+
+{\displaystyle \xi }
+
+and
+
+{\displaystyle \zeta }
+
+are the two magneto-electric tensors. If the medium is reciprocal, permittivity and permeability are symmetric tensors, and
+
+{\displaystyle \xi =-\zeta ^{T}=-i\kappa ^{T}}
+
+, where
+
+{\displaystyle \kappa }
+
+is the chiral tensor describing chiral electromagnetic and reciprocal magneto-electric response. The chiral tensor can be expressed as
+
+{\displaystyle \kappa ={\tfrac {1}{3}}\operatorname {tr} (\kappa )I+N+J}
+
+, where
+
+{\displaystyle \operatorname {tr} (\kappa )}
+
+is the trace of
+
+{\displaystyle \kappa }
+
+, I is the identity matrix, N is a symmetric trace-free tensor, and J is an antisymmetric tensor. Such decomposition allows

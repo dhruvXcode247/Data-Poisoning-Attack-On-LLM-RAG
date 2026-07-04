@@ -1,0 +1,9 @@
+langchain
+langchain_core
+langchain-community
+unstructured
+sentence-transformers
+langchain-huggingface
+peft
+tokenizers
+faiss-cpu

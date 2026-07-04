@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+cached_models/
+*.safetensors
+
 # Distribution / packaging
 .Python
 build/
