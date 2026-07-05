@@ -7,3 +7,4 @@ langchain-huggingface
 peft
 tokenizers
 faiss-cpu
+langchain-groq>=0.3.0
