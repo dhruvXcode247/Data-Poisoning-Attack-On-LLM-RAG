@@ -18,7 +18,7 @@ Create a **malicious .txt** file and inject it into the vectordb to **poison the
 
 1. **clone the repository**  
     ```bash
-    git clone https://github.com/chinmayajoshi/Data-Poisoning-Attack-on-LLM-RAG
+    git clone https://github.com/dhruvXcode247/Data-Poisoning-Attack-On-LLM-RAG.git
     cd Data-Poisoning-Attack-on-LLM-RAG
     ```
 
